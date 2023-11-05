@@ -1,0 +1,533 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "name": "Advanced Python Programming",
+      "instructor": "Jane Smith",
+      "description": "Explore advanced Python concepts and programming techniques.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "python-course-image-link",
+      "duration": "10 weeks",
+      "schedule": "Mondays and Wednesdays, 7:00 PM - 9:00 PM",
+      "location": "Online",
+      "prerequisites": ["Intermediate Python knowledge"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Python Data Structures",
+          "content": "In-depth study of Python data structures and their usage."
+        },
+        {
+          "week": 2,
+          "topic": "Object-Oriented Programming in Python",
+          "content": "Learn how to design and implement classes and objects in Python."
+        }
+      ],
+      "studentsEnrolled": []
+    },
+    {
+      "id": 2,
+      "name": "Web Development with React",
+      "instructor": "David Wilson",
+      "description": "Master modern web development with React and create interactive web applications.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "react-course-image-link",
+      "duration": "12 weeks",
+      "schedule": "Tuesdays and Thursdays, 6:30 PM - 8:30 PM",
+      "location": "Online",
+      "prerequisites": ["HTML, CSS, and basic JavaScript knowledge"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "React Fundamentals",
+          "content": "Introduction to React, JSX, and creating components."
+        },
+        {
+          "week": 2,
+          "topic": "State Management with Redux",
+          "content": "Managing application state using Redux and React-Redux."
+        }
+      ],
+      "studentsEnrolled": []
+    },
+    {
+      "id": 3,
+      "name": "Data Science with Python",
+      "instructor": "Sarah Johnson",
+      "description": "Explore data analysis and machine learning with Python.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "data-science-python-image-link",
+      "duration": "14 weeks",
+      "schedule": "Wednesdays and Fridays, 6:00 PM - 8:00 PM",
+      "location": "Online",
+      "prerequisites": [
+        "Python programming basics",
+        "Basic statistics knowledge"
+      ],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to Data Science",
+          "content": "Overview of data science and its applications."
+        },
+        {
+          "week": 2,
+          "topic": "Data Analysis with Pandas",
+          "content": "Using Pandas library for data manipulation and analysis."
+        }
+      ],
+      "studentsEnrolled": []
+    },
+    {
+      "id": 4,
+      "name": "JavaScript Fundamentals",
+      "instructor": "Mark Brown",
+      "description": "Master the basics of JavaScript programming.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "javascript-fundamentals-image-link",
+      "duration": "6 weeks",
+      "schedule": "Tuesdays and Thursdays, 5:00 PM - 7:00 PM",
+      "location": "Online",
+      "prerequisites": ["No prior programming experience required"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to JavaScript",
+          "content": "Basics of JavaScript, variables, and data types."
+        },
+        {
+          "week": 2,
+          "topic": "Control Flow and Functions",
+          "content": "Conditional statements, loops, and function declarations."
+        }
+      ],
+      "studentsEnrolled": []
+    },
+    {
+      "id": 5,
+      "name": "Full-Stack Web Development",
+      "instructor": "Laura White",
+      "description": "Learn to build dynamic web applications with the MERN stack.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "full-stack-web-dev-image-link",
+      "duration": "16 weeks",
+      "schedule": "Mondays and Wednesdays, 6:30 PM - 8:30 PM",
+      "location": "Online",
+      "prerequisites": [
+        "Basic web development knowledge",
+        "JavaScript proficiency"
+      ],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Front-End Development with React",
+          "content": "Building interactive user interfaces using React."
+        },
+        {
+          "week": 2,
+          "topic": "Back-End Development with Node.js",
+          "content": "Creating server-side applications with Node.js."
+        }
+      ],
+      "studentsEnrolled": []
+    },
+    {
+      "id": 6,
+      "name": "Machine Learning in Python",
+      "instructor": "Daniel Lee",
+      "description": "Explore machine learning algorithms and their applications.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "machine-learning-python-image-link",
+      "duration": "12 weeks",
+      "schedule": "Thursdays, 6:00 PM - 8:00 PM",
+      "location": "Online",
+      "prerequisites": [
+        "Python programming skills",
+        "Basic understanding of statistics"
+      ],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to Machine Learning",
+          "content": "Overview of machine learning concepts and terminology."
+        },
+        {
+          "week": 2,
+          "topic": "Supervised Learning",
+          "content": "Exploring supervised learning algorithms like regression and classification."
+        }
+      ],
+      "studentsEnrolled": []
+    },
+    {
+      "id": 7,
+      "name": "Node.js Web Development",
+      "instructor": "Alex Turner",
+      "description": "Build web applications with Node.js, Express, and MongoDB.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "nodejs-web-dev-image-link",
+      "duration": "10 weeks",
+      "schedule": "Mondays and Wednesdays, 6:30 PM - 8:30 PM",
+      "location": "Online",
+      "prerequisites": ["Basic JavaScript knowledge"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to Node.js",
+          "content": "Getting started with Node.js and setting up a development environment."
+        },
+        {
+          "week": 2,
+          "topic": "Creating RESTful APIs with Express",
+          "content": "Designing and building RESTful APIs using Express framework."
+        }
+      ],
+      "studentsEnrolled": []
+    },
+    {
+      "id": 8,
+      "name": "Java Programming Fundamentals",
+      "instructor": "Ella Davis",
+      "description": "Learn the basics of Java programming, from variables to OOP.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "java-fundamentals-image-link",
+      "duration": "8 weeks",
+      "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
+      "location": "Online",
+      "prerequisites": ["No prior programming experience required"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to Java",
+          "content": "An overview of Java, its history, and its applications."
+        },
+        {
+          "week": 2,
+          "topic": "Java Syntax and Control Structures",
+          "content": "Exploring Java's syntax and control flow."
+        }
+      ],
+      "studentsEnrolled": []
+    },
+    {
+      "id": 9,
+      "name": "Databases and SQL Fundamentals",
+      "instructor": "Noah White",
+      "description": "Master SQL and relational databases for data management.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "sql-fundamentals-image-link",
+      "duration": "8 weeks",
+      "schedule": "Wednesdays and Fridays, 6:30 PM - 8:30 PM",
+      "location": "Online",
+      "prerequisites": ["Basic database knowledge"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to Databases",
+          "content": "Understanding the importance of databases in modern applications."
+        },
+        {
+          "week": 2,
+          "topic": "SQL Querying and Data Manipulation",
+          "content": "Learning SQL basics and performing data manipulation tasks."
+        }
+      ],
+      "studentsEnrolled": []
+    },
+    {
+      "id": 10,
+      "name": "Mobile App Development with Flutter",
+      "instructor": "Grace Wilson",
+      "description": "Create cross-platform mobile apps with Flutter and Dart.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "flutter-mobile-dev-image-link",
+      "duration": "12 weeks",
+      "schedule": "Thursdays, 6:30 PM - 8:30 PM",
+      "location": "Online",
+      "prerequisites": ["Basic programming knowledge"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to Flutter",
+          "content": "Getting started with Flutter, Dart, and app development."
+        },
+        {
+          "week": 2,
+          "topic": "Building UIs with Flutter Widgets",
+          "content": "Designing user interfaces with Flutter widgets."
+        }
+      ],
+      "studentsEnrolled": []
+    },
+    {
+      "id": 11,
+      "name": "Data Structures and Algorithms in C++",
+      "instructor": "Michael Clark",
+      "description": "Learn fundamental data structures and algorithms in C++.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "data-structures-cpp-image-link",
+      "duration": "12 weeks",
+      "schedule": "Mondays and Wednesdays, 6:00 PM - 8:00 PM",
+      "location": "Online",
+      "prerequisites": ["Basic C++ knowledge"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Arrays and Linked Lists",
+          "content": "Exploring the implementation and usage of arrays and linked lists."
+        },
+        {
+          "week": 2,
+          "topic": "Sorting Algorithms",
+          "content": "Understanding various sorting algorithms in C++."
+        }
+      ],
+      "studentsEnrolled": []
+    },
+    {
+      "id": 12,
+      "name": "JavaScript for Front-End Development",
+      "instructor": "Olivia Harris",
+      "description": "Master JavaScript for building interactive front-end applications.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "js-frontend-dev-image-link",
+      "duration": "10 weeks",
+      "schedule": "Tuesdays and Thursdays, 7:00 PM - 9:00 PM",
+      "location": "Online",
+      "prerequisites": ["Basic HTML and CSS knowledge"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "JavaScript Essentials",
+          "content": "Fundamental concepts of JavaScript and DOM manipulation."
+        },
+        {
+          "week": 2,
+          "topic": "Asynchronous Programming",
+          "content": "Handling asynchronous operations and working with Promises."
+        }
+      ],
+      "studentsEnrolled": []
+    },
+    {
+      "id": 13,
+      "name": "Python Web Development with Django",
+      "instructor": "William Turner",
+      "description": "Build web applications with Python and the Django framework.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "django-web-dev-image-link",
+      "duration": "14 weeks",
+      "schedule": "Mondays and Wednesdays, 6:30 PM - 8:30 PM",
+      "location": "Online",
+      "prerequisites": ["Intermediate Python knowledge"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to Django",
+          "content": "Getting started with Django, models, and views."
+        },
+        {
+          "week": 2,
+          "topic": "Building Web Applications",
+          "content": "Creating dynamic web applications with Django templates and forms."
+        }
+      ],
+      "studentsEnrolled": []
+    },
+    {
+      "id": 14,
+      "name": "Java Enterprise Development",
+      "instructor": "James Brown",
+      "description": "Learn Java EE for building scalable enterprise applications.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "java-ee-enterprise-dev-image-link",
+      "duration": "16 weeks",
+      "schedule": "Tuesdays and Thursdays, 6:30 PM - 8:30 PM",
+      "location": "Online",
+      "prerequisites": ["Java programming basics", "Web development knowledge"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to Java EE",
+          "content": "Overview of Java EE architecture and components."
+        },
+        {
+          "week": 2,
+          "topic": "Building Enterprise Applications",
+          "content": "Creating scalable enterprise applications with Java EE technologies."
+        }
+      ],
+      "studentsEnrolled": []
+    }
+  ],
+  "students": [
+    {
+      "id": 201,
+      "name": "Emily Davis",
+      "email": "emily@example.com",
+      "enrolledCourses": []
+    },
+    {
+      "id": 202,
+      "name": "Michael Brown",
+      "email": "michael@example.com",
+      "enrolledCourses": []
+    },
+    {
+      "id": 301,
+      "name": "Olivia Anderson",
+      "email": "olivia@example.com",
+      "enrolledCourses": []
+    },
+    {
+      "id": 302,
+      "name": "James Miller",
+      "email": "james@example.com",
+      "enrolledCourses": []
+    },
+    {
+      "id": 401,
+      "name": "William Taylor",
+      "email": "william@example.com",
+      "enrolledCourses": []
+    },
+    {
+      "id": 402,
+      "name": "Emma Wilson",
+      "email": "emma@example.com",
+      "enrolledCourses": []
+    },
+    {
+      "id": 501,
+      "name": "Sophia Clark",
+      "email": "sophia@example.com",
+      "enrolledCourses": []
+    },
+    {
+      "id": 502,
+      "name": "Liam Davis",
+      "email": "liam@example.com",
+      "enrolledCourses": []
+    },
+    {
+      "id": 601,
+      "name": "Mia Martinez",
+      "email": "mia@example.com",
+      "enrolledCourses": []
+    },
+    {
+      "id": 602,
+      "name": "Noah Harris",
+      "email": "noah@example.com",
+      "enrolledCourses": []
+    },
+    {
+      "id": 701,
+      "name": "Ava Turner",
+      "email": "ava@example.com",
+      "enrolledCourses": []
+    },
+    {
+      "id": 702,
+      "name": "Ethan Lewis",
+      "email": "ethan@example.com",
+      "enrolledCourses": []
+    },
+    {
+      "id": 801,
+      "name": "Aiden Johnson",
+      "email": "aiden@example.com",
+      "enrolledCourses": []
+    },
+    {
+      "id": 802,
+      "name": "Sophia Brown",
+      "email": "sophia@example.com",
+      "enrolledCourses": []
+    },
+    {
+      "id": 901,
+      "name": "Liam Smith",
+      "email": "liam@example.com",
+      "enrolledCourses": []
+    },
+    {
+      "id": 902,
+      "name": "Olivia Martinez",
+      "email": "olivia@example.com",
+      "enrolledCourses": []
+    },
+    {
+      "id": 1001,
+      "name": "Ava Harris",
+      "email": "ava@example.com",
+      "enrolledCourses": []
+    },
+    {
+      "id": 1002,
+      "name": "Ethan Anderson",
+      "email": "ethan@example.com",
+      "enrolledCourses": []
+    },
+    {
+      "id": 1101,
+      "name": "Mia Turner",
+      "email": "mia@example.com",
+      "enrolledCourses": []
+    },
+    {
+      "id": 1102,
+      "name": "Noah Lewis",
+      "email": "noah@example.com",
+      "enrolledCourses": []
+    },
+    {
+      "id": 1201,
+      "name": "Sophia Turner",
+      "email": "sophia@example.com",
+      "enrolledCourses": []
+    },
+    {
+      "id": 1202,
+      "name": "Liam Davis",
+      "email": "liam@example.com",
+      "enrolledCourses": []
+    },
+    {
+      "id": 1301,
+      "name": "Aiden Smith",
+      "email": "aiden@example.com",
+      "enrolledCourses": []
+    },
+    {
+      "id": 1302,
+      "name": "Ella Anderson",
+      "email": "ella@example.com",
+      "enrolledCourses": []
+    },
+    {
+      "id": 1401,
+      "name": "Ava Clark",
+      "email": "ava@example.com",
+      "enrolledCourses": []
+    },
+    {
+      "id": 1402,
+      "name": "Ethan White",
+      "email": "ethan@example.com",
+      "enrolledCourses": []
+    },
+    {
+      "id": 1501,
+      "name": "Mia Davis",
+      "email": "mia@example.com",
+      "enrolledCourses": []
+    },
+    {
+      "id": 1502,
+      "name": "Noah Anderson",
+      "email": "noah@example.com",
+      "enrolledCourses": []
+    }
+  ]
+}
