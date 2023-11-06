@@ -18,13 +18,10 @@ export type TCourse = {
 };
 
 export type TStudent = {
-  "id": number;
-  "name": string;
-  "email": string;
-  "enrolledCourses": number[];
+  id: number;
+  name: string;
+  email: string;
+  enrolledCourses: number[];
 };
 
-export type TCourseResponse = {
-  status: string;
-  data: TCourse[];
-};
+export type TCourseResponse = TCourse[];

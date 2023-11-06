@@ -5,57 +5,58 @@ import { AxiosResponse } from "axios";
 
 export type TCoursesInitialState = {
   isLoading: boolean;
-  courses: TCourse[]; 
+  courses: TCourse[];
 };
 
 const initialState: TCoursesInitialState = {
-  isLoading: false,
-  courses: []
+  isLoading: true,
+  courses: [],
 };
 
-const getCourses = createAsyncThunk<{
-  courses: TCourse[]
-}, 
-undefined
->('courses/fetchCourses', async () => {
-
+export const getCourses = createAsyncThunk<
+  {
+    courses: TCourse[];
+  },
+  undefined
+>("courses/fetchCourses", async () => {
   try {
+    const result: AxiosResponse<TCourseResponse> = await axiosInstance.get(
+      "/courses"
+    );
 
-    const result: AxiosResponse<TCourseResponse> = await axiosInstance.get('courses');
-
-    if(result.status === 200) {
+    if (result.status === 200) {
       return {
-        courses: result.data.data
+        courses: result.data,
       };
     }
-    
+
     return {
-      courses: []
+      courses: [],
     };
   } catch (error) {
     return {
-      courses: []
+      courses: [],
     };
   }
 });
 
 const { reducer } = createSlice({
-  name: 'courses',
+  name: "courses",
   initialState,
   reducers: {},
   extraReducers(builder) {
     builder
-    .addCase(getCourses.pending, (state) => {
-      state.isLoading = true;
-    })
-    .addCase(getCourses.rejected, (state) => {
-      state.isLoading = false;
-      state.courses = [];
-    })
-    .addCase(getCourses.fulfilled, (state, action) => {
-      state.courses = action.payload.courses;
-      state.isLoading = false;
-    })
+      .addCase(getCourses.pending, (state) => {
+        state.isLoading = true;
+      })
+      .addCase(getCourses.rejected, (state) => {
+        state.isLoading = false;
+        state.courses = [];
+      })
+      .addCase(getCourses.fulfilled, (state, action) => {
+        state.courses = action.payload.courses;
+        state.isLoading = false;
+      });
   },
 });
 
