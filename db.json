@@ -10,7 +10,9 @@
       "duration": "10 weeks",
       "schedule": "Mondays and Wednesdays, 7:00 PM - 9:00 PM",
       "location": "Online",
-      "prerequisites": ["Intermediate Python knowledge"],
+      "prerequisites": [
+        "Intermediate Python knowledge"
+      ],
       "syllabus": [
         {
           "week": 1,
@@ -23,7 +25,14 @@
           "content": "Learn how to design and implement classes and objects in Python."
         }
       ],
-      "studentsEnrolled": [201, 301, 402, 602, 702, 1501]
+      "studentsEnrolled": [
+        201,
+        301,
+        402,
+        602,
+        702,
+        1501
+      ]
     },
     {
       "id": 2,
@@ -35,7 +44,9 @@
       "duration": "12 weeks",
       "schedule": "Tuesdays and Thursdays, 6:30 PM - 8:30 PM",
       "location": "Online",
-      "prerequisites": ["HTML, CSS, and basic JavaScript knowledge"],
+      "prerequisites": [
+        "HTML, CSS, and basic JavaScript knowledge"
+      ],
       "syllabus": [
         {
           "week": 1,
@@ -49,7 +60,20 @@
         }
       ],
       "studentsEnrolled": [
-        201, 202, 302, 501, 601, 602, 701, 702, 801, 902, 1001, 1102, 1301, 1401
+        201,
+        202,
+        302,
+        501,
+        601,
+        602,
+        701,
+        702,
+        801,
+        902,
+        1001,
+        1102,
+        1301,
+        1401
       ]
     },
     {
@@ -78,7 +102,18 @@
           "content": "Using Pandas library for data manipulation and analysis."
         }
       ],
-      "studentsEnrolled": [301, 302, 401, 502, 702, 801, 1001, 1101, 1302, 1402]
+      "studentsEnrolled": [
+        301,
+        302,
+        401,
+        502,
+        702,
+        801,
+        1001,
+        1101,
+        1302,
+        1402
+      ]
     },
     {
       "id": 4,
@@ -90,7 +125,9 @@
       "duration": "6 weeks",
       "schedule": "Tuesdays and Thursdays, 5:00 PM - 7:00 PM",
       "location": "Online",
-      "prerequisites": ["No prior programming experience required"],
+      "prerequisites": [
+        "No prior programming experience required"
+      ],
       "syllabus": [
         {
           "week": 1,
@@ -104,7 +141,17 @@
         }
       ],
       "studentsEnrolled": [
-        401, 402, 501, 502, 601, 701, 902, 1001, 1101, 1301, 1401
+        401,
+        402,
+        501,
+        502,
+        601,
+        701,
+        902,
+        1001,
+        1101,
+        1301,
+        1401
       ]
     },
     {
@@ -134,7 +181,17 @@
         }
       ],
       "studentsEnrolled": [
-        301, 302, 402, 602, 701, 801, 1002, 1102, 1401, 1402, 1502
+        301,
+        302,
+        402,
+        602,
+        701,
+        801,
+        1002,
+        1102,
+        1401,
+        1402,
+        1502
       ]
     },
     {
@@ -164,7 +221,18 @@
         }
       ],
       "studentsEnrolled": [
-        201, 301, 401, 502, 602, 801, 901, 1001, 1301, 1401, 1402, 1502
+        201,
+        301,
+        401,
+        502,
+        602,
+        801,
+        901,
+        1001,
+        1301,
+        1401,
+        1402,
+        1502
       ]
     },
     {
@@ -177,7 +245,9 @@
       "duration": "10 weeks",
       "schedule": "Mondays and Wednesdays, 6:30 PM - 8:30 PM",
       "location": "Online",
-      "prerequisites": ["Basic JavaScript knowledge"],
+      "prerequisites": [
+        "Basic JavaScript knowledge"
+      ],
       "syllabus": [
         {
           "week": 1,
@@ -190,7 +260,17 @@
           "content": "Designing and building RESTful APIs using Express framework."
         }
       ],
-      "studentsEnrolled": [301, 302, 401, 801, 802, 1102, 1401, 1402, 1502]
+      "studentsEnrolled": [
+        301,
+        302,
+        401,
+        801,
+        802,
+        1102,
+        1401,
+        1402,
+        1502
+      ]
     },
     {
       "id": 8,
@@ -202,7 +282,9 @@
       "duration": "8 weeks",
       "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
       "location": "Online",
-      "prerequisites": ["No prior programming experience required"],
+      "prerequisites": [
+        "No prior programming experience required"
+      ],
       "syllabus": [
         {
           "week": 1,
@@ -216,7 +298,17 @@
         }
       ],
       "studentsEnrolled": [
-        202, 301, 401, 402, 501, 602, 701, 801, 1001, 1201, 1302
+        202,
+        301,
+        401,
+        402,
+        501,
+        602,
+        701,
+        801,
+        1001,
+        1201,
+        1302
       ]
     },
     {
@@ -229,7 +321,9 @@
       "duration": "8 weeks",
       "schedule": "Wednesdays and Fridays, 6:30 PM - 8:30 PM",
       "location": "Online",
-      "prerequisites": ["Basic database knowledge"],
+      "prerequisites": [
+        "Basic database knowledge"
+      ],
       "syllabus": [
         {
           "week": 1,
@@ -242,7 +336,14 @@
           "content": "Learning SQL basics and performing data manipulation tasks."
         }
       ],
-      "studentsEnrolled": [201, 601, 702, 902, 1002, 1502]
+      "studentsEnrolled": [
+        201,
+        601,
+        702,
+        902,
+        1002,
+        1502
+      ]
     },
     {
       "id": 10,
@@ -254,7 +355,9 @@
       "duration": "12 weeks",
       "schedule": "Thursdays, 6:30 PM - 8:30 PM",
       "location": "Online",
-      "prerequisites": ["Basic programming knowledge"],
+      "prerequisites": [
+        "Basic programming knowledge"
+      ],
       "syllabus": [
         {
           "week": 1,
@@ -267,7 +370,18 @@
           "content": "Designing user interfaces with Flutter widgets."
         }
       ],
-      "studentsEnrolled": [301, 501, 502, 601, 701, 702, 801, 1001, 1401, 1501]
+      "studentsEnrolled": [
+        301,
+        501,
+        502,
+        601,
+        701,
+        702,
+        801,
+        1001,
+        1401,
+        1501
+      ]
     },
     {
       "id": 11,
@@ -279,7 +393,9 @@
       "duration": "12 weeks",
       "schedule": "Mondays and Wednesdays, 6:00 PM - 8:00 PM",
       "location": "Online",
-      "prerequisites": ["Basic C++ knowledge"],
+      "prerequisites": [
+        "Basic C++ knowledge"
+      ],
       "syllabus": [
         {
           "week": 1,
@@ -292,7 +408,18 @@
           "content": "Understanding various sorting algorithms in C++."
         }
       ],
-      "studentsEnrolled": [401, 501, 601, 701, 702, 801, 1001, 1202, 1402, 1501]
+      "studentsEnrolled": [
+        401,
+        501,
+        601,
+        701,
+        702,
+        801,
+        1001,
+        1202,
+        1402,
+        1501
+      ]
     },
     {
       "id": 12,
@@ -304,7 +431,9 @@
       "duration": "10 weeks",
       "schedule": "Tuesdays and Thursdays, 7:00 PM - 9:00 PM",
       "location": "Online",
-      "prerequisites": ["Basic HTML and CSS knowledge"],
+      "prerequisites": [
+        "Basic HTML and CSS knowledge"
+      ],
       "syllabus": [
         {
           "week": 1,
@@ -317,7 +446,17 @@
           "content": "Handling asynchronous operations and working with Promises."
         }
       ],
-      "studentsEnrolled": [201, 401, 601, 602, 801, 1202, 1301, 1302, 1401]
+      "studentsEnrolled": [
+        201,
+        401,
+        601,
+        602,
+        801,
+        1202,
+        1301,
+        1302,
+        1401
+      ]
     },
     {
       "id": 13,
@@ -329,7 +468,9 @@
       "duration": "14 weeks",
       "schedule": "Mondays and Wednesdays, 6:30 PM - 8:30 PM",
       "location": "Online",
-      "prerequisites": ["Intermediate Python knowledge"],
+      "prerequisites": [
+        "Intermediate Python knowledge"
+      ],
       "syllabus": [
         {
           "week": 1,
@@ -342,7 +483,18 @@
           "content": "Creating dynamic web applications with Django templates and forms."
         }
       ],
-      "studentsEnrolled": [301, 501, 502, 701, 702, 801, 1001, 1301, 1401, 1402]
+      "studentsEnrolled": [
+        301,
+        501,
+        502,
+        701,
+        702,
+        801,
+        1001,
+        1301,
+        1401,
+        1402
+      ]
     },
     {
       "id": 14,
@@ -354,7 +506,10 @@
       "duration": "16 weeks",
       "schedule": "Tuesdays and Thursdays, 6:30 PM - 8:30 PM",
       "location": "Online",
-      "prerequisites": ["Java programming basics", "Web development knowledge"],
+      "prerequisites": [
+        "Java programming basics",
+        "Web development knowledge"
+      ],
       "syllabus": [
         {
           "week": 1,
@@ -375,23 +530,29 @@
       "id": 201,
       "name": "Emily Davis",
       "email": "emily@example.com",
-      "enrolledCourses": [6, 9, 1, 12, 2],
+      "enrolledCourses": [
+        6,
+        9,
+        1,
+        12,
+        2
+      ],
       "courseProgression": [
         {
           "name": "Machine Learning in Python",
           "instructor": "Daniel Lee",
           "thumbnail": "https://qph.cf2.quoracdn.net/main-qimg-c125d5cb91b3b3cc727d82669f93acf5",
           "dueDate": "2024-01-27T07:06:20.449Z",
-          "progress": 14,
-          "completed": false
+          "progress": 100,
+          "completed": true
         },
         {
           "name": "Databases and SQL Fundamentals",
           "instructor": "Noah White",
           "thumbnail": "https://res.cloudinary.com/practicaldev/image/fetch/s--MlzXm8j1--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/15utqnbl0s7x63q54crj.jpg",
           "dueDate": "2024-03-15T07:06:20.449Z",
-          "progress": 78,
-          "completed": false
+          "progress": 100,
+          "completed": true
         },
         {
           "name": "Advanced Python Programming",
@@ -406,8 +567,8 @@
           "instructor": "Olivia Harris",
           "thumbnail": "https://4.bp.blogspot.com/-s2EhTt57oeU/XHtQtO1QNLI/AAAAAAAANW8/KYkPQEZUyocSpA2RzqCcVt31imXPi63RACLcBGAs/s1600/Free%2BCourses%2Bto%2Blearn%2BJavaScript.jpg",
           "dueDate": "2024-03-29T07:06:20.449Z",
-          "progress": 77,
-          "completed": false
+          "progress": 100,
+          "completed": true
         },
         {
           "name": "Web Development with React",
@@ -417,13 +578,17 @@
           "progress": 78,
           "completed": false
         }
-      ]
+      ],
+      "isLoading": false
     },
     {
       "id": 202,
       "name": "Michael Brown",
       "email": "michael@example.com",
-      "enrolledCourses": [2, 8],
+      "enrolledCourses": [
+        2,
+        8
+      ],
       "courseProgression": [
         {
           "name": "Web Development with React",
@@ -447,7 +612,16 @@
       "id": 301,
       "name": "Olivia Anderson",
       "email": "olivia@example.com",
-      "enrolledCourses": [8, 13, 10, 3, 6, 7, 5, 1],
+      "enrolledCourses": [
+        8,
+        13,
+        10,
+        3,
+        6,
+        7,
+        5,
+        1
+      ],
       "courseProgression": [
         {
           "name": "Java Programming Fundamentals",
@@ -519,7 +693,12 @@
       "id": 302,
       "name": "James Miller",
       "email": "james@example.com",
-      "enrolledCourses": [7, 2, 3, 5],
+      "enrolledCourses": [
+        7,
+        2,
+        3,
+        5
+      ],
       "courseProgression": [
         {
           "name": "Node.js Web Development",
@@ -559,7 +738,15 @@
       "id": 401,
       "name": "William Taylor",
       "email": "william@example.com",
-      "enrolledCourses": [4, 3, 12, 6, 11, 8, 7],
+      "enrolledCourses": [
+        4,
+        3,
+        12,
+        6,
+        11,
+        8,
+        7
+      ],
       "courseProgression": [
         {
           "name": "JavaScript Fundamentals",
@@ -623,7 +810,12 @@
       "id": 402,
       "name": "Emma Wilson",
       "email": "emma@example.com",
-      "enrolledCourses": [4, 1, 8, 5],
+      "enrolledCourses": [
+        4,
+        1,
+        8,
+        5
+      ],
       "courseProgression": [
         {
           "name": "JavaScript Fundamentals",
@@ -663,7 +855,14 @@
       "id": 501,
       "name": "Sophia Clark",
       "email": "sophia@example.com",
-      "enrolledCourses": [11, 10, 13, 4, 2, 8],
+      "enrolledCourses": [
+        11,
+        10,
+        13,
+        4,
+        2,
+        8
+      ],
       "courseProgression": [
         {
           "name": "Data Structures and Algorithms in C++",
@@ -719,7 +918,13 @@
       "id": 502,
       "name": "Liam Davis",
       "email": "liam@example.com",
-      "enrolledCourses": [6, 13, 10, 3, 4],
+      "enrolledCourses": [
+        6,
+        13,
+        10,
+        3,
+        4
+      ],
       "courseProgression": [
         {
           "name": "Machine Learning in Python",
@@ -767,7 +972,14 @@
       "id": 601,
       "name": "Mia Martinez",
       "email": "mia@example.com",
-      "enrolledCourses": [10, 11, 2, 9, 4, 12],
+      "enrolledCourses": [
+        10,
+        11,
+        2,
+        9,
+        4,
+        12
+      ],
       "courseProgression": [
         {
           "name": "Mobile App Development with Flutter",
@@ -823,7 +1035,14 @@
       "id": 602,
       "name": "Noah Harris",
       "email": "noah@example.com",
-      "enrolledCourses": [5, 2, 6, 12, 8, 1],
+      "enrolledCourses": [
+        5,
+        2,
+        6,
+        12,
+        8,
+        1
+      ],
       "courseProgression": [
         {
           "name": "Full-Stack Web Development",
@@ -879,7 +1098,15 @@
       "id": 701,
       "name": "Ava Turner",
       "email": "ava@example.com",
-      "enrolledCourses": [5, 11, 13, 4, 10, 2, 8],
+      "enrolledCourses": [
+        5,
+        11,
+        13,
+        4,
+        10,
+        2,
+        8
+      ],
       "courseProgression": [
         {
           "name": "Full-Stack Web Development",
@@ -943,7 +1170,15 @@
       "id": 702,
       "name": "Ethan Lewis",
       "email": "ethan@example.com",
-      "enrolledCourses": [3, 2, 11, 10, 9, 13, 1],
+      "enrolledCourses": [
+        3,
+        2,
+        11,
+        10,
+        9,
+        13,
+        1
+      ],
       "courseProgression": [
         {
           "name": "Data Science with Python",
@@ -1007,7 +1242,18 @@
       "id": 801,
       "name": "Aiden Johnson",
       "email": "aiden@example.com",
-      "enrolledCourses": [10, 12, 11, 6, 2, 7, 13, 3, 8, 5],
+      "enrolledCourses": [
+        10,
+        12,
+        11,
+        6,
+        2,
+        7,
+        13,
+        3,
+        8,
+        5
+      ],
       "courseProgression": [
         {
           "name": "Mobile App Development with Flutter",
@@ -1095,7 +1341,9 @@
       "id": 802,
       "name": "Sophia Brown",
       "email": "sophia@example.com",
-      "enrolledCourses": [7],
+      "enrolledCourses": [
+        7
+      ],
       "courseProgression": [
         {
           "name": "Node.js Web Development",
@@ -1111,7 +1359,9 @@
       "id": 901,
       "name": "Liam Smith",
       "email": "liam@example.com",
-      "enrolledCourses": [6],
+      "enrolledCourses": [
+        6
+      ],
       "courseProgression": [
         {
           "name": "Machine Learning in Python",
@@ -1127,7 +1377,11 @@
       "id": 902,
       "name": "Olivia Martinez",
       "email": "olivia@example.com",
-      "enrolledCourses": [4, 9, 2],
+      "enrolledCourses": [
+        4,
+        9,
+        2
+      ],
       "courseProgression": [
         {
           "name": "JavaScript Fundamentals",
@@ -1159,7 +1413,16 @@
       "id": 1001,
       "name": "Ava Harris",
       "email": "ava@example.com",
-      "enrolledCourses": [2, 10, 6, 3, 4, 13, 11, 8],
+      "enrolledCourses": [
+        2,
+        10,
+        6,
+        3,
+        4,
+        13,
+        11,
+        8
+      ],
       "courseProgression": [
         {
           "name": "Web Development with React",
@@ -1231,7 +1494,10 @@
       "id": 1002,
       "name": "Ethan Anderson",
       "email": "ethan@example.com",
-      "enrolledCourses": [5, 9],
+      "enrolledCourses": [
+        5,
+        9
+      ],
       "courseProgression": [
         {
           "name": "Full-Stack Web Development",
@@ -1255,7 +1521,10 @@
       "id": 1101,
       "name": "Mia Turner",
       "email": "mia@example.com",
-      "enrolledCourses": [3, 4],
+      "enrolledCourses": [
+        3,
+        4
+      ],
       "courseProgression": [
         {
           "name": "Data Science with Python",
@@ -1279,7 +1548,11 @@
       "id": 1102,
       "name": "Noah Lewis",
       "email": "noah@example.com",
-      "enrolledCourses": [5, 7, 2],
+      "enrolledCourses": [
+        5,
+        7,
+        2
+      ],
       "courseProgression": [
         {
           "name": "Full-Stack Web Development",
@@ -1311,7 +1584,9 @@
       "id": 1201,
       "name": "Sophia Turner",
       "email": "sophia@example.com",
-      "enrolledCourses": [8],
+      "enrolledCourses": [
+        8
+      ],
       "courseProgression": [
         {
           "name": "Java Programming Fundamentals",
@@ -1327,7 +1602,10 @@
       "id": 1202,
       "name": "Liam Davis",
       "email": "liam@example.com",
-      "enrolledCourses": [12, 11],
+      "enrolledCourses": [
+        12,
+        11
+      ],
       "courseProgression": [
         {
           "name": "JavaScript for Front-End Development",
@@ -1351,7 +1629,13 @@
       "id": 1301,
       "name": "Aiden Smith",
       "email": "aiden@example.com",
-      "enrolledCourses": [2, 4, 12, 13, 6],
+      "enrolledCourses": [
+        2,
+        4,
+        12,
+        13,
+        6
+      ],
       "courseProgression": [
         {
           "name": "Web Development with React",
@@ -1399,7 +1683,11 @@
       "id": 1302,
       "name": "Ella Anderson",
       "email": "ella@example.com",
-      "enrolledCourses": [12, 8, 3],
+      "enrolledCourses": [
+        12,
+        8,
+        3
+      ],
       "courseProgression": [
         {
           "name": "JavaScript for Front-End Development",
@@ -1431,7 +1719,16 @@
       "id": 1401,
       "name": "Ava Clark",
       "email": "ava@example.com",
-      "enrolledCourses": [2, 12, 10, 7, 6, 13, 4, 5],
+      "enrolledCourses": [
+        2,
+        12,
+        10,
+        7,
+        6,
+        13,
+        4,
+        5
+      ],
       "courseProgression": [
         {
           "name": "Web Development with React",
@@ -1503,7 +1800,14 @@
       "id": 1402,
       "name": "Ethan White",
       "email": "ethan@example.com",
-      "enrolledCourses": [11, 13, 7, 3, 5, 6],
+      "enrolledCourses": [
+        11,
+        13,
+        7,
+        3,
+        5,
+        6
+      ],
       "courseProgression": [
         {
           "name": "Data Structures and Algorithms in C++",
@@ -1559,7 +1863,11 @@
       "id": 1501,
       "name": "Mia Davis",
       "email": "mia@example.com",
-      "enrolledCourses": [10, 1, 11],
+      "enrolledCourses": [
+        10,
+        1,
+        11
+      ],
       "courseProgression": [
         {
           "name": "Mobile App Development with Flutter",
@@ -1591,7 +1899,12 @@
       "id": 1502,
       "name": "Noah Anderson",
       "email": "noah@example.com",
-      "enrolledCourses": [5, 7, 9, 6],
+      "enrolledCourses": [
+        5,
+        7,
+        9,
+        6
+      ],
       "courseProgression": [
         {
           "name": "Full-Stack Web Development",
