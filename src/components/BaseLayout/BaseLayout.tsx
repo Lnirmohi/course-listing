@@ -22,7 +22,7 @@ export default function BaseLayout() {
       <main className="col-start-1 col-end-6 row-start-2 row-end-13 flex">
         <Sidebar />
 
-        <aside className="">
+        <aside className="w-full h-full">
           <Outlet />
         </aside>
       </main>
