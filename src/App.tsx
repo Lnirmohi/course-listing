@@ -1,7 +1,4 @@
-import { useEffect } from "react";
 import "./App.css";
-import { useAppDispatch } from "./redux/typedHooks";
-import { getCourses } from "./redux/features/courses/courseSlice";
 import { Route, Routes } from "react-router";
 import BaseLayout from "./components/BaseLayout/BaseLayout";
 import Dashboard from "./components/Dashboard/Dashboard";
