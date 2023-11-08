@@ -1,6 +1,11 @@
 import { useNavigate, useLocation } from "react-router-dom";
+import { useAppSelector } from "../../redux/typedHooks";
+import { UserCircleIcon } from "@heroicons/react/24/outline";
 
 export default function Header() {
+
+  const name = useAppSelector(state => state.student.name);
+
   const navigate = useNavigate();
   const location = useLocation();
 
@@ -33,7 +38,10 @@ export default function Header() {
           Dashboard
         </li>
       </nav>
-      <p className="text-primary self-center">Name</p>
+      <div className="flex gap-2 cursor-pointer">
+        <UserCircleIcon className="self-center text-primary w-8 h-8" />
+        <p className="text-xl text-primary self-center">{name}</p>
+      </div>
     </div>
   );
 }
