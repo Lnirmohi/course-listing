@@ -375,169 +375,1257 @@
       "id": 201,
       "name": "Emily Davis",
       "email": "emily@example.com",
-      "enrolledCourses": [6, 9, 1, 12, 2]
+      "enrolledCourses": [6, 9, 1, 12, 2],
+      "courseProgression": [
+        {
+          "name": "Machine Learning in Python",
+          "instructor": "Daniel Lee",
+          "thumbnail": "https://qph.cf2.quoracdn.net/main-qimg-c125d5cb91b3b3cc727d82669f93acf5",
+          "dueDate": "2024-01-27T07:06:20.449Z",
+          "progress": 14,
+          "completed": false
+        },
+        {
+          "name": "Databases and SQL Fundamentals",
+          "instructor": "Noah White",
+          "thumbnail": "https://res.cloudinary.com/practicaldev/image/fetch/s--MlzXm8j1--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/15utqnbl0s7x63q54crj.jpg",
+          "dueDate": "2024-03-15T07:06:20.449Z",
+          "progress": 78,
+          "completed": false
+        },
+        {
+          "name": "Advanced Python Programming",
+          "instructor": "Jane Smith",
+          "thumbnail": "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "dueDate": "2024-03-12T07:06:20.449Z",
+          "progress": 92,
+          "completed": true
+        },
+        {
+          "name": "JavaScript for Front-End Development",
+          "instructor": "Olivia Harris",
+          "thumbnail": "https://4.bp.blogspot.com/-s2EhTt57oeU/XHtQtO1QNLI/AAAAAAAANW8/KYkPQEZUyocSpA2RzqCcVt31imXPi63RACLcBGAs/s1600/Free%2BCourses%2Bto%2Blearn%2BJavaScript.jpg",
+          "dueDate": "2024-03-29T07:06:20.449Z",
+          "progress": 77,
+          "completed": false
+        },
+        {
+          "name": "Web Development with React",
+          "instructor": "David Wilson",
+          "thumbnail": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "dueDate": "2024-02-07T07:06:20.449Z",
+          "progress": 78,
+          "completed": false
+        }
+      ]
     },
     {
       "id": 202,
       "name": "Michael Brown",
       "email": "michael@example.com",
-      "enrolledCourses": [2, 8]
+      "enrolledCourses": [2, 8],
+      "courseProgression": [
+        {
+          "name": "Web Development with React",
+          "instructor": "David Wilson",
+          "thumbnail": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "dueDate": "2023-12-29T07:06:20.449Z",
+          "progress": 32,
+          "completed": true
+        },
+        {
+          "name": "Java Programming Fundamentals",
+          "instructor": "Ella Davis",
+          "thumbnail": "https://media.licdn.com/dms/image/D4E12AQEEzT08o0QxzA/article-cover_image-shrink_600_2000/0/1678306967729?e=2147483647&v=beta&t=ourUoVRy92GOr1CHai-wqK8XYrb13et2qn0JLNatOEA",
+          "dueDate": "2023-11-13T07:06:20.449Z",
+          "progress": 16,
+          "completed": false
+        }
+      ]
     },
     {
       "id": 301,
       "name": "Olivia Anderson",
       "email": "olivia@example.com",
-      "enrolledCourses": [8, 13, 10, 3, 6, 7, 5, 1]
+      "enrolledCourses": [8, 13, 10, 3, 6, 7, 5, 1],
+      "courseProgression": [
+        {
+          "name": "Java Programming Fundamentals",
+          "instructor": "Ella Davis",
+          "thumbnail": "https://media.licdn.com/dms/image/D4E12AQEEzT08o0QxzA/article-cover_image-shrink_600_2000/0/1678306967729?e=2147483647&v=beta&t=ourUoVRy92GOr1CHai-wqK8XYrb13et2qn0JLNatOEA",
+          "dueDate": "2023-11-10T07:06:20.449Z",
+          "progress": 100,
+          "completed": false
+        },
+        {
+          "name": "Python Web Development with Django",
+          "instructor": "William Turner",
+          "thumbnail": "https://img-c.udemycdn.com/course/750x422/1562632_a245_2.jpg",
+          "dueDate": "2024-02-19T07:06:20.449Z",
+          "progress": 42,
+          "completed": true
+        },
+        {
+          "name": "Mobile App Development with Flutter",
+          "instructor": "Grace Wilson",
+          "thumbnail": "https://www.signitysolutions.com/hubfs/Imported_Blog_Media/Flutter-app-development-signity-solutions-1024x512.png",
+          "dueDate": "2024-01-06T07:06:20.449Z",
+          "progress": 53,
+          "completed": true
+        },
+        {
+          "name": "Data Science with Python",
+          "instructor": "Sarah Johnson",
+          "thumbnail": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "dueDate": "2024-03-23T07:06:20.449Z",
+          "progress": 62,
+          "completed": false
+        },
+        {
+          "name": "Machine Learning in Python",
+          "instructor": "Daniel Lee",
+          "thumbnail": "https://qph.cf2.quoracdn.net/main-qimg-c125d5cb91b3b3cc727d82669f93acf5",
+          "dueDate": "2023-12-25T07:06:20.449Z",
+          "progress": 2,
+          "completed": true
+        },
+        {
+          "name": "Node.js Web Development",
+          "instructor": "Alex Turner",
+          "thumbnail": "https://www.applicationnexus.com/wp-content/uploads/2020/03/nodejs-web-development-1.svg",
+          "dueDate": "2024-02-21T07:06:20.449Z",
+          "progress": 98,
+          "completed": true
+        },
+        {
+          "name": "Full-Stack Web Development",
+          "instructor": "Laura White",
+          "thumbnail": "https://img.freepik.com/free-photo/person-front-computer-working-html_23-2150040428.jpg?w=1380&t=st=1699383856~exp=1699384456~hmac=8280b353a0d6103c451a06b697221fd9866c0b815aa50876415fb958ef3a9688",
+          "dueDate": "2023-11-10T07:06:20.449Z",
+          "progress": 31,
+          "completed": true
+        },
+        {
+          "name": "Advanced Python Programming",
+          "instructor": "Jane Smith",
+          "thumbnail": "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "dueDate": "2024-02-21T07:06:20.449Z",
+          "progress": 86,
+          "completed": true
+        }
+      ]
     },
     {
       "id": 302,
       "name": "James Miller",
       "email": "james@example.com",
-      "enrolledCourses": [7, 2, 3, 5]
+      "enrolledCourses": [7, 2, 3, 5],
+      "courseProgression": [
+        {
+          "name": "Node.js Web Development",
+          "instructor": "Alex Turner",
+          "thumbnail": "https://www.applicationnexus.com/wp-content/uploads/2020/03/nodejs-web-development-1.svg",
+          "dueDate": "2023-11-22T07:06:20.449Z",
+          "progress": 9,
+          "completed": true
+        },
+        {
+          "name": "Web Development with React",
+          "instructor": "David Wilson",
+          "thumbnail": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "dueDate": "2023-12-22T07:06:20.449Z",
+          "progress": 28,
+          "completed": true
+        },
+        {
+          "name": "Data Science with Python",
+          "instructor": "Sarah Johnson",
+          "thumbnail": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "dueDate": "2023-11-20T07:06:20.449Z",
+          "progress": 70,
+          "completed": false
+        },
+        {
+          "name": "Full-Stack Web Development",
+          "instructor": "Laura White",
+          "thumbnail": "https://img.freepik.com/free-photo/person-front-computer-working-html_23-2150040428.jpg?w=1380&t=st=1699383856~exp=1699384456~hmac=8280b353a0d6103c451a06b697221fd9866c0b815aa50876415fb958ef3a9688",
+          "dueDate": "2024-01-11T07:06:20.449Z",
+          "progress": 42,
+          "completed": false
+        }
+      ]
     },
     {
       "id": 401,
       "name": "William Taylor",
       "email": "william@example.com",
-      "enrolledCourses": [4, 3, 12, 6, 11, 8, 7]
+      "enrolledCourses": [4, 3, 12, 6, 11, 8, 7],
+      "courseProgression": [
+        {
+          "name": "JavaScript Fundamentals",
+          "instructor": "Mark Brown",
+          "thumbnail": "https://images.unsplash.com/photo-1507721999472-8ed4421c4af2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "dueDate": "2024-02-19T07:06:20.449Z",
+          "progress": 33,
+          "completed": false
+        },
+        {
+          "name": "Data Science with Python",
+          "instructor": "Sarah Johnson",
+          "thumbnail": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "dueDate": "2023-11-22T07:06:20.449Z",
+          "progress": 25,
+          "completed": false
+        },
+        {
+          "name": "JavaScript for Front-End Development",
+          "instructor": "Olivia Harris",
+          "thumbnail": "https://4.bp.blogspot.com/-s2EhTt57oeU/XHtQtO1QNLI/AAAAAAAANW8/KYkPQEZUyocSpA2RzqCcVt31imXPi63RACLcBGAs/s1600/Free%2BCourses%2Bto%2Blearn%2BJavaScript.jpg",
+          "dueDate": "2024-03-18T07:06:20.449Z",
+          "progress": 90,
+          "completed": true
+        },
+        {
+          "name": "Machine Learning in Python",
+          "instructor": "Daniel Lee",
+          "thumbnail": "https://qph.cf2.quoracdn.net/main-qimg-c125d5cb91b3b3cc727d82669f93acf5",
+          "dueDate": "2023-11-01T07:06:20.449Z",
+          "progress": 74,
+          "completed": true
+        },
+        {
+          "name": "Data Structures and Algorithms in C++",
+          "instructor": "Michael Clark",
+          "thumbnail": "https://i.ytimg.com/vi/6OsuwacETXQ/hqdefault.jpg",
+          "dueDate": "2024-02-23T07:06:20.449Z",
+          "progress": 43,
+          "completed": true
+        },
+        {
+          "name": "Java Programming Fundamentals",
+          "instructor": "Ella Davis",
+          "thumbnail": "https://media.licdn.com/dms/image/D4E12AQEEzT08o0QxzA/article-cover_image-shrink_600_2000/0/1678306967729?e=2147483647&v=beta&t=ourUoVRy92GOr1CHai-wqK8XYrb13et2qn0JLNatOEA",
+          "dueDate": "2024-02-18T07:06:20.449Z",
+          "progress": 13,
+          "completed": true
+        },
+        {
+          "name": "Node.js Web Development",
+          "instructor": "Alex Turner",
+          "thumbnail": "https://www.applicationnexus.com/wp-content/uploads/2020/03/nodejs-web-development-1.svg",
+          "dueDate": "2023-11-07T07:06:20.449Z",
+          "progress": 34,
+          "completed": false
+        }
+      ]
     },
     {
       "id": 402,
       "name": "Emma Wilson",
       "email": "emma@example.com",
-      "enrolledCourses": [4, 1, 8, 5]
+      "enrolledCourses": [4, 1, 8, 5],
+      "courseProgression": [
+        {
+          "name": "JavaScript Fundamentals",
+          "instructor": "Mark Brown",
+          "thumbnail": "https://images.unsplash.com/photo-1507721999472-8ed4421c4af2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "dueDate": "2023-11-03T07:06:20.449Z",
+          "progress": 40,
+          "completed": true
+        },
+        {
+          "name": "Advanced Python Programming",
+          "instructor": "Jane Smith",
+          "thumbnail": "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "dueDate": "2023-11-29T07:06:20.449Z",
+          "progress": 1,
+          "completed": true
+        },
+        {
+          "name": "Java Programming Fundamentals",
+          "instructor": "Ella Davis",
+          "thumbnail": "https://media.licdn.com/dms/image/D4E12AQEEzT08o0QxzA/article-cover_image-shrink_600_2000/0/1678306967729?e=2147483647&v=beta&t=ourUoVRy92GOr1CHai-wqK8XYrb13et2qn0JLNatOEA",
+          "dueDate": "2023-11-21T07:06:20.449Z",
+          "progress": 58,
+          "completed": false
+        },
+        {
+          "name": "Full-Stack Web Development",
+          "instructor": "Laura White",
+          "thumbnail": "https://img.freepik.com/free-photo/person-front-computer-working-html_23-2150040428.jpg?w=1380&t=st=1699383856~exp=1699384456~hmac=8280b353a0d6103c451a06b697221fd9866c0b815aa50876415fb958ef3a9688",
+          "dueDate": "2023-12-28T07:06:20.449Z",
+          "progress": 29,
+          "completed": true
+        }
+      ]
     },
     {
       "id": 501,
       "name": "Sophia Clark",
       "email": "sophia@example.com",
-      "enrolledCourses": [11, 10, 13, 4, 2, 8]
+      "enrolledCourses": [11, 10, 13, 4, 2, 8],
+      "courseProgression": [
+        {
+          "name": "Data Structures and Algorithms in C++",
+          "instructor": "Michael Clark",
+          "thumbnail": "https://i.ytimg.com/vi/6OsuwacETXQ/hqdefault.jpg",
+          "dueDate": "2024-03-09T07:06:20.449Z",
+          "progress": 55,
+          "completed": true
+        },
+        {
+          "name": "Mobile App Development with Flutter",
+          "instructor": "Grace Wilson",
+          "thumbnail": "https://www.signitysolutions.com/hubfs/Imported_Blog_Media/Flutter-app-development-signity-solutions-1024x512.png",
+          "dueDate": "2024-02-06T07:06:20.449Z",
+          "progress": 89,
+          "completed": true
+        },
+        {
+          "name": "Python Web Development with Django",
+          "instructor": "William Turner",
+          "thumbnail": "https://img-c.udemycdn.com/course/750x422/1562632_a245_2.jpg",
+          "dueDate": "2024-01-28T07:06:20.449Z",
+          "progress": 27,
+          "completed": true
+        },
+        {
+          "name": "JavaScript Fundamentals",
+          "instructor": "Mark Brown",
+          "thumbnail": "https://images.unsplash.com/photo-1507721999472-8ed4421c4af2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "dueDate": "2024-03-03T07:06:20.449Z",
+          "progress": 96,
+          "completed": true
+        },
+        {
+          "name": "Web Development with React",
+          "instructor": "David Wilson",
+          "thumbnail": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "dueDate": "2024-01-22T07:06:20.449Z",
+          "progress": 17,
+          "completed": true
+        },
+        {
+          "name": "Java Programming Fundamentals",
+          "instructor": "Ella Davis",
+          "thumbnail": "https://media.licdn.com/dms/image/D4E12AQEEzT08o0QxzA/article-cover_image-shrink_600_2000/0/1678306967729?e=2147483647&v=beta&t=ourUoVRy92GOr1CHai-wqK8XYrb13et2qn0JLNatOEA",
+          "dueDate": "2024-02-06T07:06:20.449Z",
+          "progress": 5,
+          "completed": false
+        }
+      ]
     },
     {
       "id": 502,
       "name": "Liam Davis",
       "email": "liam@example.com",
-      "enrolledCourses": [6, 13, 10, 3, 4]
+      "enrolledCourses": [6, 13, 10, 3, 4],
+      "courseProgression": [
+        {
+          "name": "Machine Learning in Python",
+          "instructor": "Daniel Lee",
+          "thumbnail": "https://qph.cf2.quoracdn.net/main-qimg-c125d5cb91b3b3cc727d82669f93acf5",
+          "dueDate": "2024-03-03T07:06:20.449Z",
+          "progress": 20,
+          "completed": true
+        },
+        {
+          "name": "Python Web Development with Django",
+          "instructor": "William Turner",
+          "thumbnail": "https://img-c.udemycdn.com/course/750x422/1562632_a245_2.jpg",
+          "dueDate": "2024-03-27T07:06:20.449Z",
+          "progress": 54,
+          "completed": true
+        },
+        {
+          "name": "Mobile App Development with Flutter",
+          "instructor": "Grace Wilson",
+          "thumbnail": "https://www.signitysolutions.com/hubfs/Imported_Blog_Media/Flutter-app-development-signity-solutions-1024x512.png",
+          "dueDate": "2024-02-10T07:06:20.449Z",
+          "progress": 21,
+          "completed": false
+        },
+        {
+          "name": "Data Science with Python",
+          "instructor": "Sarah Johnson",
+          "thumbnail": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "dueDate": "2024-01-15T07:06:20.449Z",
+          "progress": 99,
+          "completed": false
+        },
+        {
+          "name": "JavaScript Fundamentals",
+          "instructor": "Mark Brown",
+          "thumbnail": "https://images.unsplash.com/photo-1507721999472-8ed4421c4af2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "dueDate": "2023-12-06T07:06:20.449Z",
+          "progress": 26,
+          "completed": false
+        }
+      ]
     },
     {
       "id": 601,
       "name": "Mia Martinez",
       "email": "mia@example.com",
-      "enrolledCourses": [10, 11, 2, 9, 4, 12]
+      "enrolledCourses": [10, 11, 2, 9, 4, 12],
+      "courseProgression": [
+        {
+          "name": "Mobile App Development with Flutter",
+          "instructor": "Grace Wilson",
+          "thumbnail": "https://www.signitysolutions.com/hubfs/Imported_Blog_Media/Flutter-app-development-signity-solutions-1024x512.png",
+          "dueDate": "2024-03-31T07:06:20.449Z",
+          "progress": 58,
+          "completed": true
+        },
+        {
+          "name": "Data Structures and Algorithms in C++",
+          "instructor": "Michael Clark",
+          "thumbnail": "https://i.ytimg.com/vi/6OsuwacETXQ/hqdefault.jpg",
+          "dueDate": "2024-01-18T07:06:20.449Z",
+          "progress": 21,
+          "completed": true
+        },
+        {
+          "name": "Web Development with React",
+          "instructor": "David Wilson",
+          "thumbnail": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "dueDate": "2023-11-01T07:06:20.449Z",
+          "progress": 95,
+          "completed": false
+        },
+        {
+          "name": "Databases and SQL Fundamentals",
+          "instructor": "Noah White",
+          "thumbnail": "https://res.cloudinary.com/practicaldev/image/fetch/s--MlzXm8j1--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/15utqnbl0s7x63q54crj.jpg",
+          "dueDate": "2024-03-28T07:06:20.449Z",
+          "progress": 31,
+          "completed": true
+        },
+        {
+          "name": "JavaScript Fundamentals",
+          "instructor": "Mark Brown",
+          "thumbnail": "https://images.unsplash.com/photo-1507721999472-8ed4421c4af2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "dueDate": "2023-11-10T07:06:20.449Z",
+          "progress": 0,
+          "completed": false
+        },
+        {
+          "name": "JavaScript for Front-End Development",
+          "instructor": "Olivia Harris",
+          "thumbnail": "https://4.bp.blogspot.com/-s2EhTt57oeU/XHtQtO1QNLI/AAAAAAAANW8/KYkPQEZUyocSpA2RzqCcVt31imXPi63RACLcBGAs/s1600/Free%2BCourses%2Bto%2Blearn%2BJavaScript.jpg",
+          "dueDate": "2024-03-03T07:06:20.449Z",
+          "progress": 83,
+          "completed": true
+        }
+      ]
     },
     {
       "id": 602,
       "name": "Noah Harris",
       "email": "noah@example.com",
-      "enrolledCourses": [5, 2, 6, 12, 8, 1]
+      "enrolledCourses": [5, 2, 6, 12, 8, 1],
+      "courseProgression": [
+        {
+          "name": "Full-Stack Web Development",
+          "instructor": "Laura White",
+          "thumbnail": "https://img.freepik.com/free-photo/person-front-computer-working-html_23-2150040428.jpg?w=1380&t=st=1699383856~exp=1699384456~hmac=8280b353a0d6103c451a06b697221fd9866c0b815aa50876415fb958ef3a9688",
+          "dueDate": "2024-03-15T07:06:20.449Z",
+          "progress": 45,
+          "completed": false
+        },
+        {
+          "name": "Web Development with React",
+          "instructor": "David Wilson",
+          "thumbnail": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "dueDate": "2024-02-26T07:06:20.449Z",
+          "progress": 59,
+          "completed": false
+        },
+        {
+          "name": "Machine Learning in Python",
+          "instructor": "Daniel Lee",
+          "thumbnail": "https://qph.cf2.quoracdn.net/main-qimg-c125d5cb91b3b3cc727d82669f93acf5",
+          "dueDate": "2023-12-05T07:06:20.449Z",
+          "progress": 94,
+          "completed": false
+        },
+        {
+          "name": "JavaScript for Front-End Development",
+          "instructor": "Olivia Harris",
+          "thumbnail": "https://4.bp.blogspot.com/-s2EhTt57oeU/XHtQtO1QNLI/AAAAAAAANW8/KYkPQEZUyocSpA2RzqCcVt31imXPi63RACLcBGAs/s1600/Free%2BCourses%2Bto%2Blearn%2BJavaScript.jpg",
+          "dueDate": "2023-12-27T07:06:20.449Z",
+          "progress": 81,
+          "completed": true
+        },
+        {
+          "name": "Java Programming Fundamentals",
+          "instructor": "Ella Davis",
+          "thumbnail": "https://media.licdn.com/dms/image/D4E12AQEEzT08o0QxzA/article-cover_image-shrink_600_2000/0/1678306967729?e=2147483647&v=beta&t=ourUoVRy92GOr1CHai-wqK8XYrb13et2qn0JLNatOEA",
+          "dueDate": "2024-03-09T07:06:20.449Z",
+          "progress": 41,
+          "completed": true
+        },
+        {
+          "name": "Advanced Python Programming",
+          "instructor": "Jane Smith",
+          "thumbnail": "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "dueDate": "2024-02-21T07:06:20.449Z",
+          "progress": 54,
+          "completed": false
+        }
+      ]
     },
     {
       "id": 701,
       "name": "Ava Turner",
       "email": "ava@example.com",
-      "enrolledCourses": [5, 11, 13, 4, 10, 2, 8]
+      "enrolledCourses": [5, 11, 13, 4, 10, 2, 8],
+      "courseProgression": [
+        {
+          "name": "Full-Stack Web Development",
+          "instructor": "Laura White",
+          "thumbnail": "https://img.freepik.com/free-photo/person-front-computer-working-html_23-2150040428.jpg?w=1380&t=st=1699383856~exp=1699384456~hmac=8280b353a0d6103c451a06b697221fd9866c0b815aa50876415fb958ef3a9688",
+          "dueDate": "2024-02-17T07:06:20.449Z",
+          "progress": 46,
+          "completed": false
+        },
+        {
+          "name": "Data Structures and Algorithms in C++",
+          "instructor": "Michael Clark",
+          "thumbnail": "https://i.ytimg.com/vi/6OsuwacETXQ/hqdefault.jpg",
+          "dueDate": "2024-01-26T07:06:20.449Z",
+          "progress": 47,
+          "completed": false
+        },
+        {
+          "name": "Python Web Development with Django",
+          "instructor": "William Turner",
+          "thumbnail": "https://img-c.udemycdn.com/course/750x422/1562632_a245_2.jpg",
+          "dueDate": "2024-01-23T07:06:20.449Z",
+          "progress": 35,
+          "completed": true
+        },
+        {
+          "name": "JavaScript Fundamentals",
+          "instructor": "Mark Brown",
+          "thumbnail": "https://images.unsplash.com/photo-1507721999472-8ed4421c4af2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "dueDate": "2024-03-18T07:06:20.449Z",
+          "progress": 15,
+          "completed": false
+        },
+        {
+          "name": "Mobile App Development with Flutter",
+          "instructor": "Grace Wilson",
+          "thumbnail": "https://www.signitysolutions.com/hubfs/Imported_Blog_Media/Flutter-app-development-signity-solutions-1024x512.png",
+          "dueDate": "2023-11-22T07:06:20.449Z",
+          "progress": 53,
+          "completed": false
+        },
+        {
+          "name": "Web Development with React",
+          "instructor": "David Wilson",
+          "thumbnail": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "dueDate": "2024-02-04T07:06:20.449Z",
+          "progress": 45,
+          "completed": true
+        },
+        {
+          "name": "Java Programming Fundamentals",
+          "instructor": "Ella Davis",
+          "thumbnail": "https://media.licdn.com/dms/image/D4E12AQEEzT08o0QxzA/article-cover_image-shrink_600_2000/0/1678306967729?e=2147483647&v=beta&t=ourUoVRy92GOr1CHai-wqK8XYrb13et2qn0JLNatOEA",
+          "dueDate": "2023-12-20T07:06:20.449Z",
+          "progress": 55,
+          "completed": false
+        }
+      ]
     },
     {
       "id": 702,
       "name": "Ethan Lewis",
       "email": "ethan@example.com",
-      "enrolledCourses": [3, 2, 11, 10, 9, 13, 1]
+      "enrolledCourses": [3, 2, 11, 10, 9, 13, 1],
+      "courseProgression": [
+        {
+          "name": "Data Science with Python",
+          "instructor": "Sarah Johnson",
+          "thumbnail": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "dueDate": "2024-02-24T07:06:20.449Z",
+          "progress": 45,
+          "completed": true
+        },
+        {
+          "name": "Web Development with React",
+          "instructor": "David Wilson",
+          "thumbnail": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "dueDate": "2024-01-03T07:06:20.449Z",
+          "progress": 29,
+          "completed": true
+        },
+        {
+          "name": "Data Structures and Algorithms in C++",
+          "instructor": "Michael Clark",
+          "thumbnail": "https://i.ytimg.com/vi/6OsuwacETXQ/hqdefault.jpg",
+          "dueDate": "2024-03-16T07:06:20.449Z",
+          "progress": 13,
+          "completed": true
+        },
+        {
+          "name": "Mobile App Development with Flutter",
+          "instructor": "Grace Wilson",
+          "thumbnail": "https://www.signitysolutions.com/hubfs/Imported_Blog_Media/Flutter-app-development-signity-solutions-1024x512.png",
+          "dueDate": "2024-02-27T07:06:20.449Z",
+          "progress": 42,
+          "completed": false
+        },
+        {
+          "name": "Databases and SQL Fundamentals",
+          "instructor": "Noah White",
+          "thumbnail": "https://res.cloudinary.com/practicaldev/image/fetch/s--MlzXm8j1--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/15utqnbl0s7x63q54crj.jpg",
+          "dueDate": "2024-01-15T07:06:20.449Z",
+          "progress": 85,
+          "completed": true
+        },
+        {
+          "name": "Python Web Development with Django",
+          "instructor": "William Turner",
+          "thumbnail": "https://img-c.udemycdn.com/course/750x422/1562632_a245_2.jpg",
+          "dueDate": "2024-03-06T07:06:20.449Z",
+          "progress": 12,
+          "completed": false
+        },
+        {
+          "name": "Advanced Python Programming",
+          "instructor": "Jane Smith",
+          "thumbnail": "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "dueDate": "2024-03-01T07:06:20.449Z",
+          "progress": 26,
+          "completed": false
+        }
+      ]
     },
     {
       "id": 801,
       "name": "Aiden Johnson",
       "email": "aiden@example.com",
-      "enrolledCourses": [10, 12, 11, 6, 2, 7, 13, 3, 8, 5]
+      "enrolledCourses": [10, 12, 11, 6, 2, 7, 13, 3, 8, 5],
+      "courseProgression": [
+        {
+          "name": "Mobile App Development with Flutter",
+          "instructor": "Grace Wilson",
+          "thumbnail": "https://www.signitysolutions.com/hubfs/Imported_Blog_Media/Flutter-app-development-signity-solutions-1024x512.png",
+          "dueDate": "2024-03-15T07:06:20.449Z",
+          "progress": 0,
+          "completed": true
+        },
+        {
+          "name": "JavaScript for Front-End Development",
+          "instructor": "Olivia Harris",
+          "thumbnail": "https://4.bp.blogspot.com/-s2EhTt57oeU/XHtQtO1QNLI/AAAAAAAANW8/KYkPQEZUyocSpA2RzqCcVt31imXPi63RACLcBGAs/s1600/Free%2BCourses%2Bto%2Blearn%2BJavaScript.jpg",
+          "dueDate": "2024-02-18T07:06:20.449Z",
+          "progress": 56,
+          "completed": true
+        },
+        {
+          "name": "Data Structures and Algorithms in C++",
+          "instructor": "Michael Clark",
+          "thumbnail": "https://i.ytimg.com/vi/6OsuwacETXQ/hqdefault.jpg",
+          "dueDate": "2023-12-19T07:06:20.449Z",
+          "progress": 81,
+          "completed": false
+        },
+        {
+          "name": "Machine Learning in Python",
+          "instructor": "Daniel Lee",
+          "thumbnail": "https://qph.cf2.quoracdn.net/main-qimg-c125d5cb91b3b3cc727d82669f93acf5",
+          "dueDate": "2024-03-26T07:06:20.449Z",
+          "progress": 8,
+          "completed": true
+        },
+        {
+          "name": "Web Development with React",
+          "instructor": "David Wilson",
+          "thumbnail": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "dueDate": "2023-11-16T07:06:20.449Z",
+          "progress": 31,
+          "completed": true
+        },
+        {
+          "name": "Node.js Web Development",
+          "instructor": "Alex Turner",
+          "thumbnail": "https://www.applicationnexus.com/wp-content/uploads/2020/03/nodejs-web-development-1.svg",
+          "dueDate": "2023-12-15T07:06:20.449Z",
+          "progress": 71,
+          "completed": false
+        },
+        {
+          "name": "Python Web Development with Django",
+          "instructor": "William Turner",
+          "thumbnail": "https://img-c.udemycdn.com/course/750x422/1562632_a245_2.jpg",
+          "dueDate": "2024-03-16T07:06:20.449Z",
+          "progress": 14,
+          "completed": false
+        },
+        {
+          "name": "Data Science with Python",
+          "instructor": "Sarah Johnson",
+          "thumbnail": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "dueDate": "2024-02-06T07:06:20.449Z",
+          "progress": 96,
+          "completed": false
+        },
+        {
+          "name": "Java Programming Fundamentals",
+          "instructor": "Ella Davis",
+          "thumbnail": "https://media.licdn.com/dms/image/D4E12AQEEzT08o0QxzA/article-cover_image-shrink_600_2000/0/1678306967729?e=2147483647&v=beta&t=ourUoVRy92GOr1CHai-wqK8XYrb13et2qn0JLNatOEA",
+          "dueDate": "2024-02-11T07:06:20.449Z",
+          "progress": 36,
+          "completed": false
+        },
+        {
+          "name": "Full-Stack Web Development",
+          "instructor": "Laura White",
+          "thumbnail": "https://img.freepik.com/free-photo/person-front-computer-working-html_23-2150040428.jpg?w=1380&t=st=1699383856~exp=1699384456~hmac=8280b353a0d6103c451a06b697221fd9866c0b815aa50876415fb958ef3a9688",
+          "dueDate": "2024-03-20T07:06:20.449Z",
+          "progress": 82,
+          "completed": false
+        }
+      ]
     },
     {
       "id": 802,
       "name": "Sophia Brown",
       "email": "sophia@example.com",
-      "enrolledCourses": [7]
+      "enrolledCourses": [7],
+      "courseProgression": [
+        {
+          "name": "Node.js Web Development",
+          "instructor": "Alex Turner",
+          "thumbnail": "https://www.applicationnexus.com/wp-content/uploads/2020/03/nodejs-web-development-1.svg",
+          "dueDate": "2023-11-10T07:06:20.449Z",
+          "progress": 40,
+          "completed": true
+        }
+      ]
     },
     {
       "id": 901,
       "name": "Liam Smith",
       "email": "liam@example.com",
-      "enrolledCourses": [6]
+      "enrolledCourses": [6],
+      "courseProgression": [
+        {
+          "name": "Machine Learning in Python",
+          "instructor": "Daniel Lee",
+          "thumbnail": "https://qph.cf2.quoracdn.net/main-qimg-c125d5cb91b3b3cc727d82669f93acf5",
+          "dueDate": "2024-03-06T07:06:20.449Z",
+          "progress": 79,
+          "completed": false
+        }
+      ]
     },
     {
       "id": 902,
       "name": "Olivia Martinez",
       "email": "olivia@example.com",
-      "enrolledCourses": [4, 9, 2]
+      "enrolledCourses": [4, 9, 2],
+      "courseProgression": [
+        {
+          "name": "JavaScript Fundamentals",
+          "instructor": "Mark Brown",
+          "thumbnail": "https://images.unsplash.com/photo-1507721999472-8ed4421c4af2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "dueDate": "2024-03-23T07:06:20.449Z",
+          "progress": 40,
+          "completed": true
+        },
+        {
+          "name": "Databases and SQL Fundamentals",
+          "instructor": "Noah White",
+          "thumbnail": "https://res.cloudinary.com/practicaldev/image/fetch/s--MlzXm8j1--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/15utqnbl0s7x63q54crj.jpg",
+          "dueDate": "2024-01-02T07:06:20.449Z",
+          "progress": 64,
+          "completed": false
+        },
+        {
+          "name": "Web Development with React",
+          "instructor": "David Wilson",
+          "thumbnail": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "dueDate": "2024-03-13T07:06:20.449Z",
+          "progress": 48,
+          "completed": true
+        }
+      ]
     },
     {
       "id": 1001,
       "name": "Ava Harris",
       "email": "ava@example.com",
-      "enrolledCourses": [2, 10, 6, 3, 4, 13, 11, 8]
+      "enrolledCourses": [2, 10, 6, 3, 4, 13, 11, 8],
+      "courseProgression": [
+        {
+          "name": "Web Development with React",
+          "instructor": "David Wilson",
+          "thumbnail": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "dueDate": "2023-12-02T07:06:20.449Z",
+          "progress": 39,
+          "completed": true
+        },
+        {
+          "name": "Mobile App Development with Flutter",
+          "instructor": "Grace Wilson",
+          "thumbnail": "https://www.signitysolutions.com/hubfs/Imported_Blog_Media/Flutter-app-development-signity-solutions-1024x512.png",
+          "dueDate": "2024-02-25T07:06:20.449Z",
+          "progress": 4,
+          "completed": false
+        },
+        {
+          "name": "Machine Learning in Python",
+          "instructor": "Daniel Lee",
+          "thumbnail": "https://qph.cf2.quoracdn.net/main-qimg-c125d5cb91b3b3cc727d82669f93acf5",
+          "dueDate": "2023-11-13T07:06:20.449Z",
+          "progress": 24,
+          "completed": true
+        },
+        {
+          "name": "Data Science with Python",
+          "instructor": "Sarah Johnson",
+          "thumbnail": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "dueDate": "2023-11-19T07:06:20.449Z",
+          "progress": 59,
+          "completed": false
+        },
+        {
+          "name": "JavaScript Fundamentals",
+          "instructor": "Mark Brown",
+          "thumbnail": "https://images.unsplash.com/photo-1507721999472-8ed4421c4af2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "dueDate": "2024-01-19T07:06:20.449Z",
+          "progress": 69,
+          "completed": true
+        },
+        {
+          "name": "Python Web Development with Django",
+          "instructor": "William Turner",
+          "thumbnail": "https://img-c.udemycdn.com/course/750x422/1562632_a245_2.jpg",
+          "dueDate": "2024-03-23T07:06:20.449Z",
+          "progress": 72,
+          "completed": true
+        },
+        {
+          "name": "Data Structures and Algorithms in C++",
+          "instructor": "Michael Clark",
+          "thumbnail": "https://i.ytimg.com/vi/6OsuwacETXQ/hqdefault.jpg",
+          "dueDate": "2024-02-01T07:06:20.449Z",
+          "progress": 47,
+          "completed": true
+        },
+        {
+          "name": "Java Programming Fundamentals",
+          "instructor": "Ella Davis",
+          "thumbnail": "https://media.licdn.com/dms/image/D4E12AQEEzT08o0QxzA/article-cover_image-shrink_600_2000/0/1678306967729?e=2147483647&v=beta&t=ourUoVRy92GOr1CHai-wqK8XYrb13et2qn0JLNatOEA",
+          "dueDate": "2023-12-02T07:06:20.449Z",
+          "progress": 12,
+          "completed": true
+        }
+      ]
     },
     {
       "id": 1002,
       "name": "Ethan Anderson",
       "email": "ethan@example.com",
-      "enrolledCourses": [5, 9]
+      "enrolledCourses": [5, 9],
+      "courseProgression": [
+        {
+          "name": "Full-Stack Web Development",
+          "instructor": "Laura White",
+          "thumbnail": "https://img.freepik.com/free-photo/person-front-computer-working-html_23-2150040428.jpg?w=1380&t=st=1699383856~exp=1699384456~hmac=8280b353a0d6103c451a06b697221fd9866c0b815aa50876415fb958ef3a9688",
+          "dueDate": "2023-11-12T07:06:20.449Z",
+          "progress": 71,
+          "completed": true
+        },
+        {
+          "name": "Databases and SQL Fundamentals",
+          "instructor": "Noah White",
+          "thumbnail": "https://res.cloudinary.com/practicaldev/image/fetch/s--MlzXm8j1--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/15utqnbl0s7x63q54crj.jpg",
+          "dueDate": "2024-02-19T07:06:20.449Z",
+          "progress": 35,
+          "completed": false
+        }
+      ]
     },
     {
       "id": 1101,
       "name": "Mia Turner",
       "email": "mia@example.com",
-      "enrolledCourses": [3, 4]
+      "enrolledCourses": [3, 4],
+      "courseProgression": [
+        {
+          "name": "Data Science with Python",
+          "instructor": "Sarah Johnson",
+          "thumbnail": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "dueDate": "2023-12-04T07:06:20.449Z",
+          "progress": 55,
+          "completed": false
+        },
+        {
+          "name": "JavaScript Fundamentals",
+          "instructor": "Mark Brown",
+          "thumbnail": "https://images.unsplash.com/photo-1507721999472-8ed4421c4af2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "dueDate": "2024-01-21T07:06:20.449Z",
+          "progress": 51,
+          "completed": true
+        }
+      ]
     },
     {
       "id": 1102,
       "name": "Noah Lewis",
       "email": "noah@example.com",
-      "enrolledCourses": [5, 7, 2]
+      "enrolledCourses": [5, 7, 2],
+      "courseProgression": [
+        {
+          "name": "Full-Stack Web Development",
+          "instructor": "Laura White",
+          "thumbnail": "https://img.freepik.com/free-photo/person-front-computer-working-html_23-2150040428.jpg?w=1380&t=st=1699383856~exp=1699384456~hmac=8280b353a0d6103c451a06b697221fd9866c0b815aa50876415fb958ef3a9688",
+          "dueDate": "2024-02-06T07:06:20.449Z",
+          "progress": 70,
+          "completed": true
+        },
+        {
+          "name": "Node.js Web Development",
+          "instructor": "Alex Turner",
+          "thumbnail": "https://www.applicationnexus.com/wp-content/uploads/2020/03/nodejs-web-development-1.svg",
+          "dueDate": "2023-12-11T07:06:20.449Z",
+          "progress": 54,
+          "completed": false
+        },
+        {
+          "name": "Web Development with React",
+          "instructor": "David Wilson",
+          "thumbnail": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "dueDate": "2024-01-16T07:06:20.449Z",
+          "progress": 6,
+          "completed": false
+        }
+      ]
     },
     {
       "id": 1201,
       "name": "Sophia Turner",
       "email": "sophia@example.com",
-      "enrolledCourses": [8]
+      "enrolledCourses": [8],
+      "courseProgression": [
+        {
+          "name": "Java Programming Fundamentals",
+          "instructor": "Ella Davis",
+          "thumbnail": "https://media.licdn.com/dms/image/D4E12AQEEzT08o0QxzA/article-cover_image-shrink_600_2000/0/1678306967729?e=2147483647&v=beta&t=ourUoVRy92GOr1CHai-wqK8XYrb13et2qn0JLNatOEA",
+          "dueDate": "2024-02-23T07:06:20.449Z",
+          "progress": 7,
+          "completed": false
+        }
+      ]
     },
     {
       "id": 1202,
       "name": "Liam Davis",
       "email": "liam@example.com",
-      "enrolledCourses": [12, 11]
+      "enrolledCourses": [12, 11],
+      "courseProgression": [
+        {
+          "name": "JavaScript for Front-End Development",
+          "instructor": "Olivia Harris",
+          "thumbnail": "https://4.bp.blogspot.com/-s2EhTt57oeU/XHtQtO1QNLI/AAAAAAAANW8/KYkPQEZUyocSpA2RzqCcVt31imXPi63RACLcBGAs/s1600/Free%2BCourses%2Bto%2Blearn%2BJavaScript.jpg",
+          "dueDate": "2024-01-26T07:06:20.449Z",
+          "progress": 85,
+          "completed": true
+        },
+        {
+          "name": "Data Structures and Algorithms in C++",
+          "instructor": "Michael Clark",
+          "thumbnail": "https://i.ytimg.com/vi/6OsuwacETXQ/hqdefault.jpg",
+          "dueDate": "2024-02-13T07:06:20.449Z",
+          "progress": 73,
+          "completed": true
+        }
+      ]
     },
     {
       "id": 1301,
       "name": "Aiden Smith",
       "email": "aiden@example.com",
-      "enrolledCourses": [2, 4, 12, 13, 6]
+      "enrolledCourses": [2, 4, 12, 13, 6],
+      "courseProgression": [
+        {
+          "name": "Web Development with React",
+          "instructor": "David Wilson",
+          "thumbnail": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "dueDate": "2023-12-06T07:06:20.449Z",
+          "progress": 76,
+          "completed": true
+        },
+        {
+          "name": "JavaScript Fundamentals",
+          "instructor": "Mark Brown",
+          "thumbnail": "https://images.unsplash.com/photo-1507721999472-8ed4421c4af2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "dueDate": "2023-11-08T07:06:20.449Z",
+          "progress": 63,
+          "completed": false
+        },
+        {
+          "name": "JavaScript for Front-End Development",
+          "instructor": "Olivia Harris",
+          "thumbnail": "https://4.bp.blogspot.com/-s2EhTt57oeU/XHtQtO1QNLI/AAAAAAAANW8/KYkPQEZUyocSpA2RzqCcVt31imXPi63RACLcBGAs/s1600/Free%2BCourses%2Bto%2Blearn%2BJavaScript.jpg",
+          "dueDate": "2023-11-14T07:06:20.449Z",
+          "progress": 94,
+          "completed": true
+        },
+        {
+          "name": "Python Web Development with Django",
+          "instructor": "William Turner",
+          "thumbnail": "https://img-c.udemycdn.com/course/750x422/1562632_a245_2.jpg",
+          "dueDate": "2024-01-13T07:06:20.449Z",
+          "progress": 68,
+          "completed": false
+        },
+        {
+          "name": "Machine Learning in Python",
+          "instructor": "Daniel Lee",
+          "thumbnail": "https://qph.cf2.quoracdn.net/main-qimg-c125d5cb91b3b3cc727d82669f93acf5",
+          "dueDate": "2023-12-29T07:06:20.449Z",
+          "progress": 6,
+          "completed": true
+        }
+      ]
     },
     {
       "id": 1302,
       "name": "Ella Anderson",
       "email": "ella@example.com",
-      "enrolledCourses": [12, 8, 3]
+      "enrolledCourses": [12, 8, 3],
+      "courseProgression": [
+        {
+          "name": "JavaScript for Front-End Development",
+          "instructor": "Olivia Harris",
+          "thumbnail": "https://4.bp.blogspot.com/-s2EhTt57oeU/XHtQtO1QNLI/AAAAAAAANW8/KYkPQEZUyocSpA2RzqCcVt31imXPi63RACLcBGAs/s1600/Free%2BCourses%2Bto%2Blearn%2BJavaScript.jpg",
+          "dueDate": "2023-11-30T07:06:20.449Z",
+          "progress": 6,
+          "completed": false
+        },
+        {
+          "name": "Java Programming Fundamentals",
+          "instructor": "Ella Davis",
+          "thumbnail": "https://media.licdn.com/dms/image/D4E12AQEEzT08o0QxzA/article-cover_image-shrink_600_2000/0/1678306967729?e=2147483647&v=beta&t=ourUoVRy92GOr1CHai-wqK8XYrb13et2qn0JLNatOEA",
+          "dueDate": "2024-03-02T07:06:20.449Z",
+          "progress": 3,
+          "completed": false
+        },
+        {
+          "name": "Data Science with Python",
+          "instructor": "Sarah Johnson",
+          "thumbnail": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "dueDate": "2024-03-22T07:06:20.449Z",
+          "progress": 84,
+          "completed": true
+        }
+      ]
     },
     {
       "id": 1401,
       "name": "Ava Clark",
       "email": "ava@example.com",
-      "enrolledCourses": [2, 12, 10, 7, 6, 13, 4, 5]
+      "enrolledCourses": [2, 12, 10, 7, 6, 13, 4, 5],
+      "courseProgression": [
+        {
+          "name": "Web Development with React",
+          "instructor": "David Wilson",
+          "thumbnail": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "dueDate": "2023-12-23T07:06:20.449Z",
+          "progress": 11,
+          "completed": true
+        },
+        {
+          "name": "JavaScript for Front-End Development",
+          "instructor": "Olivia Harris",
+          "thumbnail": "https://4.bp.blogspot.com/-s2EhTt57oeU/XHtQtO1QNLI/AAAAAAAANW8/KYkPQEZUyocSpA2RzqCcVt31imXPi63RACLcBGAs/s1600/Free%2BCourses%2Bto%2Blearn%2BJavaScript.jpg",
+          "dueDate": "2024-03-31T07:06:20.449Z",
+          "progress": 15,
+          "completed": true
+        },
+        {
+          "name": "Mobile App Development with Flutter",
+          "instructor": "Grace Wilson",
+          "thumbnail": "https://www.signitysolutions.com/hubfs/Imported_Blog_Media/Flutter-app-development-signity-solutions-1024x512.png",
+          "dueDate": "2023-11-29T07:06:20.449Z",
+          "progress": 94,
+          "completed": false
+        },
+        {
+          "name": "Node.js Web Development",
+          "instructor": "Alex Turner",
+          "thumbnail": "https://www.applicationnexus.com/wp-content/uploads/2020/03/nodejs-web-development-1.svg",
+          "dueDate": "2023-11-28T07:06:20.449Z",
+          "progress": 99,
+          "completed": true
+        },
+        {
+          "name": "Machine Learning in Python",
+          "instructor": "Daniel Lee",
+          "thumbnail": "https://qph.cf2.quoracdn.net/main-qimg-c125d5cb91b3b3cc727d82669f93acf5",
+          "dueDate": "2024-01-12T07:06:20.449Z",
+          "progress": 22,
+          "completed": false
+        },
+        {
+          "name": "Python Web Development with Django",
+          "instructor": "William Turner",
+          "thumbnail": "https://img-c.udemycdn.com/course/750x422/1562632_a245_2.jpg",
+          "dueDate": "2023-11-07T07:06:20.449Z",
+          "progress": 77,
+          "completed": false
+        },
+        {
+          "name": "JavaScript Fundamentals",
+          "instructor": "Mark Brown",
+          "thumbnail": "https://images.unsplash.com/photo-1507721999472-8ed4421c4af2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "dueDate": "2024-01-16T07:06:20.449Z",
+          "progress": 45,
+          "completed": false
+        },
+        {
+          "name": "Full-Stack Web Development",
+          "instructor": "Laura White",
+          "thumbnail": "https://img.freepik.com/free-photo/person-front-computer-working-html_23-2150040428.jpg?w=1380&t=st=1699383856~exp=1699384456~hmac=8280b353a0d6103c451a06b697221fd9866c0b815aa50876415fb958ef3a9688",
+          "dueDate": "2023-11-24T07:06:20.449Z",
+          "progress": 91,
+          "completed": false
+        }
+      ]
     },
     {
       "id": 1402,
       "name": "Ethan White",
       "email": "ethan@example.com",
-      "enrolledCourses": [11, 13, 7, 3, 5, 6]
+      "enrolledCourses": [11, 13, 7, 3, 5, 6],
+      "courseProgression": [
+        {
+          "name": "Data Structures and Algorithms in C++",
+          "instructor": "Michael Clark",
+          "thumbnail": "https://i.ytimg.com/vi/6OsuwacETXQ/hqdefault.jpg",
+          "dueDate": "2024-02-21T07:06:20.449Z",
+          "progress": 97,
+          "completed": true
+        },
+        {
+          "name": "Python Web Development with Django",
+          "instructor": "William Turner",
+          "thumbnail": "https://img-c.udemycdn.com/course/750x422/1562632_a245_2.jpg",
+          "dueDate": "2024-02-07T07:06:20.449Z",
+          "progress": 94,
+          "completed": true
+        },
+        {
+          "name": "Node.js Web Development",
+          "instructor": "Alex Turner",
+          "thumbnail": "https://www.applicationnexus.com/wp-content/uploads/2020/03/nodejs-web-development-1.svg",
+          "dueDate": "2024-03-07T07:06:20.449Z",
+          "progress": 39,
+          "completed": true
+        },
+        {
+          "name": "Data Science with Python",
+          "instructor": "Sarah Johnson",
+          "thumbnail": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "dueDate": "2023-12-23T07:06:20.449Z",
+          "progress": 71,
+          "completed": false
+        },
+        {
+          "name": "Full-Stack Web Development",
+          "instructor": "Laura White",
+          "thumbnail": "https://img.freepik.com/free-photo/person-front-computer-working-html_23-2150040428.jpg?w=1380&t=st=1699383856~exp=1699384456~hmac=8280b353a0d6103c451a06b697221fd9866c0b815aa50876415fb958ef3a9688",
+          "dueDate": "2024-03-23T07:06:20.449Z",
+          "progress": 70,
+          "completed": true
+        },
+        {
+          "name": "Machine Learning in Python",
+          "instructor": "Daniel Lee",
+          "thumbnail": "https://qph.cf2.quoracdn.net/main-qimg-c125d5cb91b3b3cc727d82669f93acf5",
+          "dueDate": "2024-03-18T07:06:20.449Z",
+          "progress": 77,
+          "completed": false
+        }
+      ]
     },
     {
       "id": 1501,
       "name": "Mia Davis",
       "email": "mia@example.com",
-      "enrolledCourses": [10, 1, 11]
+      "enrolledCourses": [10, 1, 11],
+      "courseProgression": [
+        {
+          "name": "Mobile App Development with Flutter",
+          "instructor": "Grace Wilson",
+          "thumbnail": "https://www.signitysolutions.com/hubfs/Imported_Blog_Media/Flutter-app-development-signity-solutions-1024x512.png",
+          "dueDate": "2023-11-17T07:06:20.449Z",
+          "progress": 39,
+          "completed": true
+        },
+        {
+          "name": "Advanced Python Programming",
+          "instructor": "Jane Smith",
+          "thumbnail": "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "dueDate": "2023-12-05T07:06:20.449Z",
+          "progress": 31,
+          "completed": false
+        },
+        {
+          "name": "Data Structures and Algorithms in C++",
+          "instructor": "Michael Clark",
+          "thumbnail": "https://i.ytimg.com/vi/6OsuwacETXQ/hqdefault.jpg",
+          "dueDate": "2024-03-22T07:06:20.449Z",
+          "progress": 65,
+          "completed": false
+        }
+      ]
     },
     {
       "id": 1502,
       "name": "Noah Anderson",
       "email": "noah@example.com",
-      "enrolledCourses": [5, 7, 9, 6]
+      "enrolledCourses": [5, 7, 9, 6],
+      "courseProgression": [
+        {
+          "name": "Full-Stack Web Development",
+          "instructor": "Laura White",
+          "thumbnail": "https://img.freepik.com/free-photo/person-front-computer-working-html_23-2150040428.jpg?w=1380&t=st=1699383856~exp=1699384456~hmac=8280b353a0d6103c451a06b697221fd9866c0b815aa50876415fb958ef3a9688",
+          "dueDate": "2024-03-26T07:06:20.449Z",
+          "progress": 2,
+          "completed": true
+        },
+        {
+          "name": "Node.js Web Development",
+          "instructor": "Alex Turner",
+          "thumbnail": "https://www.applicationnexus.com/wp-content/uploads/2020/03/nodejs-web-development-1.svg",
+          "dueDate": "2024-02-26T07:06:20.449Z",
+          "progress": 9,
+          "completed": true
+        },
+        {
+          "name": "Databases and SQL Fundamentals",
+          "instructor": "Noah White",
+          "thumbnail": "https://res.cloudinary.com/practicaldev/image/fetch/s--MlzXm8j1--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/15utqnbl0s7x63q54crj.jpg",
+          "dueDate": "2023-12-19T07:06:20.449Z",
+          "progress": 42,
+          "completed": true
+        },
+        {
+          "name": "Machine Learning in Python",
+          "instructor": "Daniel Lee",
+          "thumbnail": "https://qph.cf2.quoracdn.net/main-qimg-c125d5cb91b3b3cc727d82669f93acf5",
+          "dueDate": "2024-03-14T07:06:20.449Z",
+          "progress": 42,
+          "completed": false
+        }
+      ]
     }
   ]
 }
