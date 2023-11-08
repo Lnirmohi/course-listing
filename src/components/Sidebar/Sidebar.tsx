@@ -7,7 +7,7 @@ export default function Sidebar() {
   const { courses, isLoading } = useAppSelector((state) => state.courses);
 
   return (
-    <div className="h-full flex flex-col">
+    <div className="basis-1/4 h-full flex flex-col">
       <HeadlessSearch callback={() => {}}>
         {(debouncedSearch, searchRef, handleClear) => {
           return <Search searchRef={searchRef} handleClear={handleClear} />;
